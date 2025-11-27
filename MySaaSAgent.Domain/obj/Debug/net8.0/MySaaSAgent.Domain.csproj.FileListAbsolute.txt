@@ -1,0 +1,16 @@
+C:\Users\jfroj\Documents\mySaaSAgent\MySaaSAgent.Domain\bin\Debug\net8.0\MySaaSAgent.Domain.deps.json
+C:\Users\jfroj\Documents\mySaaSAgent\MySaaSAgent.Domain\bin\Debug\net8.0\MySaaSAgent.Domain.dll
+C:\Users\jfroj\Documents\mySaaSAgent\MySaaSAgent.Domain\bin\Debug\net8.0\MySaaSAgent.Domain.pdb
+C:\Users\jfroj\Documents\mySaaSAgent\MySaaSAgent.Domain\bin\Debug\net8.0\SharedKernel.dll
+C:\Users\jfroj\Documents\mySaaSAgent\MySaaSAgent.Domain\bin\Debug\net8.0\SharedKernel.pdb
+C:\Users\jfroj\Documents\mySaaSAgent\MySaaSAgent.Domain\obj\Debug\net8.0\MySaaSAgent.Domain.csproj.AssemblyReference.cache
+C:\Users\jfroj\Documents\mySaaSAgent\MySaaSAgent.Domain\obj\Debug\net8.0\MySaaSAgent.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jfroj\Documents\mySaaSAgent\MySaaSAgent.Domain\obj\Debug\net8.0\MySaaSAgent.Domain.AssemblyInfoInputs.cache
+C:\Users\jfroj\Documents\mySaaSAgent\MySaaSAgent.Domain\obj\Debug\net8.0\MySaaSAgent.Domain.AssemblyInfo.cs
+C:\Users\jfroj\Documents\mySaaSAgent\MySaaSAgent.Domain\obj\Debug\net8.0\MySaaSAgent.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jfroj\Documents\mySaaSAgent\MySaaSAgent.Domain\obj\Debug\net8.0\MySaaSAgent.Domain.sourcelink.json
+C:\Users\jfroj\Documents\mySaaSAgent\MySaaSAgent.Domain\obj\Debug\net8.0\MySaaSAg.266CCF07.Up2Date
+C:\Users\jfroj\Documents\mySaaSAgent\MySaaSAgent.Domain\obj\Debug\net8.0\MySaaSAgent.Domain.dll
+C:\Users\jfroj\Documents\mySaaSAgent\MySaaSAgent.Domain\obj\Debug\net8.0\refint\MySaaSAgent.Domain.dll
+C:\Users\jfroj\Documents\mySaaSAgent\MySaaSAgent.Domain\obj\Debug\net8.0\MySaaSAgent.Domain.pdb
+C:\Users\jfroj\Documents\mySaaSAgent\MySaaSAgent.Domain\obj\Debug\net8.0\ref\MySaaSAgent.Domain.dll

@@ -1,7 +1,12 @@
+using MySaaSAgent.Infrastructure.IoC;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// Register infrastructure: DbContext, repositories, etc.
+builder.Services.AddInfrastructureDatabase(builder.Configuration);
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

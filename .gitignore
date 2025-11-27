@@ -1,0 +1,102 @@
+# Visual Studio / Visual Studio Code / Rider
+.vs/
+.vscode/
+.idea/
+
+# Build artifacts
+**/bin/
+**/obj/
+**/artifacts/
+
+# Rider caches and local files
+*.sln.iml
+*.DotSettings.user
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+.nuget/
+
+# EF Core
+**/Migrations/ 
+**/migrations/**/ # but be careful, if you want to include migrations, remove this
+
+# NUnit/xUnit/MSTest results
+TestResults/
+*.trx
+*.Coverage
+*.coverage
+coverage*.xml
+coverage*.json
+
+# Publish/pack
+/publish/
+*.Publish.xml
+*.zip
+
+# Logs
+*.log
+logs/
+
+# Dotnet tools cache
+.toolstarget/
+
+# Environment/Secrets
+.env
+.env.*
+secrets.json
+Secrets.json
+appsettings.*.Local.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Binaries
+*.dll
+*.exe
+*.so
+*.dylib
+*.pdb
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspscc
+
+# Application Insights local telemetry
+.telemetry
+
+# JetBrains Rider settings
+.idea/
+
+# SQL Server local DB
+*.mdf
+*.ldf
+
+# Docker
+docker-compose.override.yml
+.docker/*
+
+# other
+*.vsix
+
+# Vendor or local generated files
+**/node_modules/
+**/wwwroot/lib/
+
+# Add any local config or secret files you don't want committed
+local.settings.json
+
+# Optional: Remove ignore from migrations if you prefer to check in migrations as code (EF C# migrations)
+# If you want EF migrations to be tracked, comment out the following two lines
+#**/Migrations/
+#**/*Migrations.cs

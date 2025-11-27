@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MySaaSAgent.Application\MySaaSAgent.Application.csproj" />
+    <ProjectReference Include="..\MySaaSAgent.Infrastructure\MySaaSAgent.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

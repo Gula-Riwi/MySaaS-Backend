@@ -1,3 +1,135 @@
+# ----------------------------
+# .gitignore for MySaaSAgent
+# ----------------------------
+
+### IDE / Editor
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+### Build / Bin / Obj
+**/bin/
+**/obj/
+**/*_i.c
+**/*_p.c
+
+### Publish
+/publish/
+**/publish/
+*.Publish.xml
+*.zip
+
+### NuGet
+*.nupkg
+*.snupkg
+**/packages/
+.nuget/
+
+### EF Core
+# By default, exclude EF migrations folder; uncomment if you want to include C# migrations
+**/Migrations/
+**/*Migrations.cs
+
+### Test results
+TestResults/
+*.trx
+*.Coverage
+*.coverage
+coverage*.xml
+coverage*.json
+
+### Logs
+*.log
+logs/
+
+### Dotnet tools cache
+.dotnet/tools/
+.toolstarget/
+
+### Secrets / environment
+.env
+.env.*
+secrets.json
+Secrets.json
+local.settings.json
+appsettings.*.Local.json
+credentials.json
+
+### OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+Icon
+
+### Binaries
+*.dll
+*.exe
+*.so
+*.dylib
+*.pdb
+
+### Profilers / Perf
+*.psess
+*.vsp
+*.vspx
+*.vspscc
+
+### Telemetry
+.telemetry
+
+### SQL Server
+*.mdf
+*.ldf
+
+### Docker
+docker-compose.override.yml
+.docker/
+docker-compose.*.yml
+
+### Node / Frontend
+node_modules/
+**/node_modules/
+wwwroot/lib/
+
+### Web / artifacts
+**/wwwroot/dist/
+
+### VSIX / extensions
+*.vsix
+
+### Database files (sqlite) and local DBs
+*.db
+*.sqlite
+*.sqlite3
+
+### Backup files
+*.bak
+*.old
+*.backup
+
+### Misc
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# If you want EF migrations included in repository (recommended), comment these two lines out:
+#**/Migrations/
+#**/*Migrations.cs
+
+# Explicit keep: if you add folders with the intended files you want to keep (e.g. db scripts), add an allow list
+#!/MySaaSAgent.Infrastructure/Migrations/*.sql
 # Visual Studio / Visual Studio Code / Rider
 .vs/
 .vscode/
